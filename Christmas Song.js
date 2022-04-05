@@ -14,7 +14,31 @@ const giftOptions = {
 };
 
 const christmasSong = () => {
-  // YOUR SOLUTION GOES HERE
+  let songArray = []
+
+  const thePhrase = (n) => {        
+        let ordinalNum = giftOptions[n + ''][0]
+        return 'On the ' + ordinalNum + ' day of Christmas, my true love gave to me: ' 
+    }
+  
+  const presents = (n) => {
+      let gifts = ''
+          if(n >= 2){
+          for(let i = n; 2 <= i; i--){
+          gifts += giftOptions[i + ''][1] + ', '        
+          }  
+          gifts += 'and ' + giftOptions[1][1] + '.'   
+          }else{
+              gifts = giftOptions[1][1] + '.'
+          }            
+          return gifts          
+      }
+
+      for(let i = 1; i <= 12; i++){
+          songArray.push(thePhrase(i) + presents(i))
+      }
+
+      return songArray
 };
 
-console.log(1000)
+//SecretCode: B01425EA
