@@ -1,5 +1,4 @@
-'use strict'
-// Please don't delete the 'use strict' line above
+
 const stringDeduplicator = (arr) => {
     let newArray = [];
     let checkObj = {};
