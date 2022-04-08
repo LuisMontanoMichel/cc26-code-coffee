@@ -1,5 +1,3 @@
-'use strict'
-// Please don't delete the 'use strict' line above
 
 const longCatMaker = (n) => {
   let theOs = ""
