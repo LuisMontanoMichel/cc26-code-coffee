@@ -33,6 +33,8 @@ const oxfordCommaBuilder = (arr, includeOxfordComma) => {
   return newString;
 };
 
+//refactor using less for loops
+
 // plan
 // if values are two
 // if values are more than two
