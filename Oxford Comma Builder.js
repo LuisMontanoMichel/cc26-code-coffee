@@ -48,6 +48,4 @@ const oxfordCommaBuilder = (arr, includeOxfordComma) => {
 //focus on finishing each step. Forget other blocks.
 //solving small problems feels good. It is solid.
 
-// console.log(oxfordCommaBuilder([1, 2, 3], true) );
-// console.log(oxfordCommaBuilder(["eggs", "lettuce", "bacon"], false) );
-// console.log(oxfordCommaBuilder(["Tom", "Jerry"], true));
+//.pop() .join(", ") A&&(B||C)
