@@ -10,6 +10,7 @@ const minMaxNumScraper = (strOfNums) => {
 console.log(minMaxNumScraper("1 2 3 4 5")); //should return [1, 5]
 console.log(minMaxNumScraper("32 5 11 9 27 3 18")); //should return [3, 32]
 
+//plan
 //make string into array
 //create new array
 //choose min and push in newArray
@@ -21,8 +22,9 @@ console.log(minMaxNumScraper("32 5 11 9 27 3 18")); //should return [3, 32]
 //serching "how to create array from string" was good. However, it is not good to
 //imitate the solution. Adjust it, or be inspired and create a better one.
 //just type max in mdn not google
+//typing directly in the function might have been better
 
-//ugly
+//ugly　difficult to master
 let string = "0,1";
 let array = JSON.parse("[" + string + "]");//[0, 1]
 

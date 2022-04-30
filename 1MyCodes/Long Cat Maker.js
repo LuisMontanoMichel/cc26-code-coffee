@@ -1,4 +1,6 @@
 
+// NS? Secret Code: BA67C33C
+
 const longCatMaker = (n) => {
   let theOs = ""
   for (let i = 0; i < n; i++) {
