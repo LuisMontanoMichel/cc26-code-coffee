@@ -17,5 +17,5 @@ const rotateArray = (arr, direction, n) => {
   //forEach?
   //arr[2] = arr[1] right
   //arr[2] = arr[0] right2
-  //arr[1] = arr[2] left
+  //arr[1] = arr[2] lefttt
   
